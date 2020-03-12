@@ -13,3 +13,10 @@ https://www.cnblogs.com/hf8051/p/8085424.html
 
 reindex的用法
 https://blog.csdn.net/weixin_38168620/article/details/79596702
+
+发现TensorFlow无法安装的问题
+解决方法python3.7的64位版本
+
+安装TensorFlow timeout的问题
+https://blog.csdn.net/qq_42795565/article/details/83104619
+ pip --default-timeout=100 install -U Pillow
