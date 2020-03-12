@@ -31,3 +31,6 @@ https://www.cnblogs.com/anliven/p/6107783.html
 google 练习的官方地址
 https://developers.google.cn/machine-learning/crash-course/exercises?authuser=0&hl=zh-cn
 https://developers.google.cn/machine-learning/crash-course/
+
+google练习提到pandas的练习，原官方源码中没有了，单独的下载
+https://github.com/nuclth/Python_Statistics/blob/fc17bc6aa94ef290993f5fce2e735b486fd7bc12/Intro_to_Pandas.ipynb
