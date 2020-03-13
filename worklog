@@ -23,3 +23,7 @@ https://blog.csdn.net/qq_42795565/article/details/83104619
  尝试离线下载
 https://www.cnblogs.com/sddai/p/10286184.html里面提供了清华的镜像
 https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/tensorflow/
+
+离线安装的命令
+https://blog.csdn.net/py0312/article/details/89681653
+pip install ***.whl
