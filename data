@@ -36,3 +36,6 @@ google练习提到pandas的练习，原官方源码中没有了，单独的下�
 https://github.com/nuclth/Python_Statistics/blob/fc17bc6aa94ef290993f5fce2e735b486fd7bc12/Intro_to_Pandas.ipynb
 其中关于index的有错误，关于python的reindex的用法见下链接
 https://blog.csdn.net/weixin_38168620/article/details/79596702
+
+拉格朗日算子和kkt，包括不等式约束条件下的极值问题
+https://www.cnblogs.com/ooon/p/5721119.html
