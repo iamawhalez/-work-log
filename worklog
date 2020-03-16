@@ -27,3 +27,7 @@ https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/tensorflow/
 离线安装的命令
 https://blog.csdn.net/py0312/article/details/89681653
 pip install ***.whl
+
+pip install 遇到‘time out’问题解决办法  更换国内的源
+https://blog.csdn.net/weixin_43967586/article/details/100893059
+pip install --index https://pypi.tuna.tsinghua.edu.cn/simple xxx
