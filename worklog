@@ -52,3 +52,12 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/iris/
 https://blog.csdn.net/weixin_38206454/article/details/78705177?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
 https://blog.csdn.net/qiudw/article/details/8615830
 
+8.2 matlab的使用
+8.2.1 散点图 scatter函数的用法
+https://ww2.mathworks.cn/help/matlab/ref/scatter.html
+8.2.2 mapminmax的用法
+https://blog.csdn.net/pitt_xiong/article/details/7791530
+
+8.3 matlab libsvm的例子
+https://www.cnblogs.com/jlutiger/p/10033938.html
+
