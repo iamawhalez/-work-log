@@ -44,6 +44,10 @@ https://blog.csdn.net/sinat_36502563/article/details/102302392
 命令为svmtrain，下面链接，讲述了如何添加matlab目录的问题
 https://blog.csdn.net/github_35807147/article/details/80725642
 
-8 iris数据集的导入
+8 iris数据集的下载
 https://www.jianshu.com/p/8c5f9f2549c5
 http://archive.ics.uci.edu/ml/machine-learning-databases/iris/
+
+8.1 matlab iris数据集的导入
+https://blog.csdn.net/qiudw/article/details/8615830
+
