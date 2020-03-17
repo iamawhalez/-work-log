@@ -1,40 +1,43 @@
-numpy 的用法
+2.numpy 的用法
 arange
 meshgrid
 
 https://blog.csdn.net/weixin_28710515/article/details/91574434
 
-直方图不显示
+3 直方图不显示
 https://blog.csdn.net/bolatu_youshang/article/details/90319362
 
-lambda函数
+4 lambda函数
 https://docs.python.org/2/tutorial/controlflow.html#lambda-expressions
 https://www.cnblogs.com/hf8051/p/8085424.html
 
-reindex的用法
+5 reindex的用法
 https://blog.csdn.net/weixin_38168620/article/details/79596702
 
-发现TensorFlow无法安装的问题
+6 发现TensorFlow无法安装的问题
 解决方法python3.7的64位版本
 
-安装TensorFlow timeout的问题
+6.1安装TensorFlow timeout的问题
 https://blog.csdn.net/qq_42795565/article/details/83104619
  pip --default-timeout=100 install -U tensorflow 失败
- 尝试离线下载
+6.2 尝试离线下载
 https://www.cnblogs.com/sddai/p/10286184.html里面提供了清华的镜像
 https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/tensorflow/
 
-离线安装的命令
+6.2.1离线安装的命令
 https://blog.csdn.net/py0312/article/details/89681653
 pip install ***.whl
 
-pip install 遇到‘time out’问题解决办法  更换国内的源
+6.3 pip install 遇到‘time out’问题解决办法  更换国内的源
 https://blog.csdn.net/weixin_43967586/article/details/100893059
 pip install --index https://pypi.tuna.tsinghua.edu.cn/simple xxx
 
-TensorFlow 采用pip始终无法安装，改用Anaconda3，并成功
+6.4 TensorFlow 采用pip始终无法安装，改用Anaconda3，并成功
 https://blog.csdn.net/weixin_42548215/article/details/86475438
 
-1，安装成功TensorFlow后，运行程序，显示module 'tensorflow' has no attribute 'Session'错误解决
+6.5 安装成功TensorFlow后，运行程序，显示module 'tensorflow' has no attribute 'Session'错误解决
 https://blog.csdn.net/sinat_36502563/article/details/102302392
 将tf.seesion()改为tf.compat.v1.Session()
+
+7 matlab 使用libsvm
+
