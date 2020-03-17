@@ -31,3 +31,10 @@ pip install ***.whl
 pip install 遇到‘time out’问题解决办法  更换国内的源
 https://blog.csdn.net/weixin_43967586/article/details/100893059
 pip install --index https://pypi.tuna.tsinghua.edu.cn/simple xxx
+
+TensorFlow 采用pip始终无法安装，改用Anaconda3，并成功
+https://blog.csdn.net/weixin_42548215/article/details/86475438
+
+1，安装成功TensorFlow后，运行程序，显示module 'tensorflow' has no attribute 'Session'错误解决
+https://blog.csdn.net/sinat_36502563/article/details/102302392
+将tf.seesion()改为tf.compat.v1.Session()
