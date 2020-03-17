@@ -40,4 +40,6 @@ https://blog.csdn.net/sinat_36502563/article/details/102302392
 将tf.seesion()改为tf.compat.v1.Session()
 
 7 matlab 使用libsvm
-
+查找多篇网页，直接运行就行
+命令为svmtrain，下面链接，讲述了如何添加matlab目录的问题
+https://blog.csdn.net/github_35807147/article/details/80725642
