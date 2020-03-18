@@ -61,3 +61,11 @@ https://blog.csdn.net/pitt_xiong/article/details/7791530
 8.3 matlab libsvm的例子
 https://www.cnblogs.com/jlutiger/p/10033938.html
 
+9.1 python读取图片的几种方式
+https://blog.csdn.net/eefresher/article/details/88919146
+ import skimage.io as io
+ import matplotlib.pyplot as plt
+
+ img = io.imread("a.jpg")
+ io.imshow(img)
+ plt.show()
