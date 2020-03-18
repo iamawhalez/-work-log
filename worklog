@@ -1,3 +1,6 @@
+1.1 python的教程
+https://www.runoob.com/python3
+
 2.numpy 的用法
 arange
 meshgrid
@@ -6,7 +9,11 @@ https://blog.csdn.net/weixin_28710515/article/details/91574434
 
 2.2 shuffle的的用法
 将数组的内容进行随机排列
-https://blog.csdn.net/yangfengling1023/article/details/81482231
+https://blog.csdn.net/yangfengling1023/artictails/81482231
+
+2.3 tuple的用法
+tuple，将参数转换为元组
+https://www.runoob.com/python3/python3-func-tuple.html
 
 
 3 直方图不显示
@@ -78,3 +85,12 @@ https://blog.csdn.net/eefresher/article/details/88919146
 9.2 python 的sklean中的kmean采用什么距离函数？欧式距离，目前无法更改 
 http://sofasofa.io/forum_main_post.php?postid=1002010
 https://segmentfault.com/q/1010000008363726
+
+9.3 python的sklean的kmeans类的参数含义
+https://blog.csdn.net/github_39261590/article/details/76910689
+
+9.4 python kmeans 的例子
+https://www.cnblogs.com/wuchuanying/p/6264025.html
+https://www.jianshu.com/p/4902096f6d4b
+https://blog.csdn.net/zidaoziyande/article/details/80565244
+https://blog.csdn.net/weixin_34343689/article/details/89650337
