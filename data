@@ -49,3 +49,7 @@ https://blog.csdn.net/m0_37687753/article/details/80964487
 
 深入浅出理解决策树算法（二）-ID3算法与C4.5算法
 https://zhuanlan.zhihu.com/p/26760551
+
+c4.5代码，只能生成树
+https://github.com/barisesmer/C4.5/blob/master/c45/main.py
+
