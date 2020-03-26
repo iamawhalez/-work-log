@@ -55,4 +55,5 @@ https://github.com/barisesmer/C4.5/blob/master/c45/main.py
 
 丘奇－图灵论题
 https://www.izoyo.cn/index.php/archives/30/
-
+一个自然数上的函数 f:N^n→N 是能行可计算的（effectively computable），当且仅当它是图灵可计算的（Turing computable）
+此论题虽无法证明，但也从未被推翻。
