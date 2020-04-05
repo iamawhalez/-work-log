@@ -14,3 +14,11 @@ http://xbeta.info/manictime.htm
 
 个人事务管理(含时间管理)doit.im
 https://xbeta.info/category/1-42-gtd-office-work
+
+
+Source Insight 4.0 完美破解
+https://blog.csdn.net/qq_21792169/article/details/85835864
+
+用16进制编辑器（sublime text）打开sourceinsight4.exe文件，找到c800 0000 742a 83bc 2408 这一段，修改74 为 eb。
+打开 C:\ProgramData\Source Insight\4.0\si4.lic
+将Expiration=”2017-XX-XX”中的2017修改为2030，试用期将永不过期。
