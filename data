@@ -71,3 +71,6 @@ https://www.cnblogs.com/rucwxb/p/7975504.html
 
 关于CNN中的maps
 https://blog.csdn.net/zz2230633069/article/details/81098741
+
+10.1 TensorFlow 遇见代码的版本问题
+https://github.com/tensorflow/tensorflow/tree/master/tensorflow/tools/compatibility
