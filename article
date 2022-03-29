@@ -1,0 +1,27 @@
+PalmTree: Learning an Assembly Language Model for Instruction Embedding
+1,First of all, to capture the complex internal formats of instructions, we use a fine-grained strategy to decompose instructions: we consider each instruction as a sentence and decompose it into basic
+tokens.
+2, we make use of a recently proposed training task in NLP to train the model: Masked Language Model (MLM)
+3,To do so, we design a training task, inspired by word2vec [28] and Asm2Vec [10], which attempts to infer the word/instruction semantics by predicting two
+instructions’ co-occurrence within a sliding window in control flow
+4,Furthermore, unlike natural language, instruction semantics are clearly documented. For instance, the source and destination operands for each instruction are clearly stated. Therefore, the data dependency (or def-use relation) between instructions is clearly
+specified and will not be tampered by compiler optimizations. Based on these facts, we design another training task called Def-Use Prediction (DUP) to further improve our assembly language model.
+Essentially, we train this language model to predict if two instructions have a def-use relation.
+
+constitution
+It consists of three components: Instruction Pair Sampling, Tokenization, and Language Model Training.After the training process, we use mean pooling of the hidden states of the
+second last layer of the BERT model as instruction embedding. 
+1,The Instruction Pair Sampling component is responsible for sampling instruction pairs from binaries based on control flow and def-use relations
+2,Then, in the second component, the instruction pair is split into tokens. 
+3,After that, as introduced earlier, we train the BERT model using the following three tasks: MLM (Masked Language Model), CWP (Context Window Prediction), and Def-Use Prediction (DUP)
+
+3.2 Input Generation
+We generate two kinds of inputs for PalmTree. First, we disassemble binaries and extract def-use relations. Second, we sample instruction pairs from control flow sequences,
+and also sample instruction pairs based on def-use relations. 
+3.3 Tokenization
+In other words, we consider each instruction as a sentence and decompose the operands into more basic elements.
+1 We use the following normalization strategy to alleviate the OOV (Out-Of-Vocabulary) problem caused by strings and constant numbers. For strings, we use a special token [str] to replace them.
+2 For constant numbers, if the constants are large (at least five digits in hexadecimal), the exact value is not that useful, so we normalize it with a special token [addr]. 
+3 If the constants are relatively small (less than four digits in hexadecimal), these constants may carry crucial information about which local variables, function arguments, and data structure fields that are accessed. Therefore we keep them as tokens, and encode them as one-hot vectors
+
+3.4 Assembly Language Model
